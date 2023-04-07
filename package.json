@@ -1,0 +1,23 @@
+{
+  "name": "ts-lodash",
+  "version": "1.0.0",
+  "description": "typescript implement lodash",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --detectOpenHandles",
+    "lint": "eslint . --ext .ts",
+    "coverage": "open ./coverage/lcov-report/index.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@jest/globals": "^29.5.0",
+    "@typescript-eslint/eslint-plugin": "^5.57.0",
+    "@typescript-eslint/parser": "^5.57.0",
+    "eslint": "^8.37.0",
+    "jest-environment-jsdom": "^29.5.0",
+    "ts-jest": "^29.0.5",
+    "typescript": "^5.0.3"
+  }
+}
