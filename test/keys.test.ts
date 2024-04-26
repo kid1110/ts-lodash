@@ -1,4 +1,4 @@
-import {describe,expect,test} from '@jest/globals';
+import { expect,test ,describe} from 'vitest';
 import { keys } from '../src/object/keys';
 
 describe('[keys test]',()=>{

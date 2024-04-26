@@ -1,23 +1,35 @@
 {
-  "name": "ts-lodash",
-  "version": "1.0.0",
+  "name": "kid-lodash",
+  "version": "1.0.6",
   "description": "typescript implement lodash",
-  "main": "index.js",
+  "main": "dist/kid-lodash.cjs",
+  "module": "dist/kid-lodash.js",
+  "types": "dist/index.d.ts",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kid1110/ts-lodash.git"
+  },
   "scripts": {
-    "test": "jest --detectOpenHandles",
+    "test": "vitest",
     "lint": "eslint . --ext .ts",
-    "coverage": "open ./coverage/lcov-report/index.html"
+    "coverage": "vitest run --coverage",
+    "build": "tsc && vite build"
   },
   "keywords": [],
-  "author": "",
+  "author": "kid1110",
   "license": "MIT",
   "devDependencies": {
-    "@jest/globals": "^29.5.0",
     "@typescript-eslint/eslint-plugin": "^5.57.0",
     "@typescript-eslint/parser": "^5.57.0",
+    "@vitest/coverage-istanbul": "^1.5.2",
+    "@vitest/coverage-v8": "^1.5.2",
     "eslint": "^8.37.0",
-    "jest-environment-jsdom": "^29.5.0",
+    "jsdom": "^24.0.0",
     "ts-jest": "^29.0.5",
-    "typescript": "^5.0.3"
+    "typescript": "^5.0.3",
+    "vite": "^5.2.10",
+    "vite-plugin-dts": "^3.9.0",
+    "vitest": "^1.5.2"
   }
 }

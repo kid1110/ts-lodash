@@ -1,7 +1,7 @@
 /**
-* @jest-environment jsdom
-*/
-import {describe,expect,test} from '@jest/globals';
+ * @vitest-environment jsdom
+ */
+import { expect,test ,describe} from 'vitest';
 import { isArray } from '../src/language/isArray';
 
 describe('[isArray test]',()=>{

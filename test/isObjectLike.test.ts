@@ -1,4 +1,4 @@
-import {describe,expect,test} from '@jest/globals';
+import { expect,test ,describe} from 'vitest';
 import { isObjectLike } from '../src/language/isObjectLike';
 import { noop } from '../src/util/noop';
 

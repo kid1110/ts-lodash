@@ -1,4 +1,4 @@
-import {describe,expect,test} from '@jest/globals';
+import { expect,test ,describe} from 'vitest';
 import { multiply } from '../src/math/multiply';
 
 describe('[multiply test]',()=>{

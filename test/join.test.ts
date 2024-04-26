@@ -1,4 +1,4 @@
-import {describe,expect,test} from '@jest/globals';
+import { expect,test ,describe} from 'vitest';
 import { join } from '../src/array/join';
 
 describe('[join test]',()=>{
